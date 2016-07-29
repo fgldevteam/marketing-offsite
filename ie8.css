@@ -1,0 +1,84 @@
+
+
+#personal-table input[type="text"]{ width: 145px; }
+#personal-table input[type="text"].long{ width: 95%; }
+
+#form-div{
+	background: url('images/bg.png') top left repeat;
+	
+}
+
+h1{
+	background: url('images/bg.png') top left repeat;
+}
+
+h1, h2, h3, h5{
+	font-family: arial, sans-serif;
+}
+
+h5{
+	font-size: 14px;
+}
+
+
+select{ 
+	-webkit-appearance: none;
+	border-radius:0px !important;
+	-webkit-border-radius:0px !important;
+	font-size: 16px;
+	background: transparent; 
+	border: none; 
+	border-bottom: 1px solid #aaa;
+	color: #fff;
+
+	
+	padding: 10px;
+
+}
+select:focus{
+	background-color: #000;
+}
+select::-ms-expand {
+    display: none;
+}
+
+input[type="checkbox"]{
+	position: relative;
+	margin-right: 5px;
+	margin-bottom: -2px;
+
+}
+
+
+
+input[type="radio"]{
+	background: none;
+	 -webkit-appearance: radio !important;
+     -moz-appearance: radio !important;
+     -ms-appearance: radio !important;
+     -o-appearance: radio !important;
+     appearance: radio !important;
+}
+
+input[type="radio"].actchoice{
+     -webkit-appearance: radio !important;
+     -moz-appearance: radio !important;
+     -ms-appearance: radio !important;
+     -o-appearance: radio !important;
+     appearance: radio !important;
+}
+
+input[type="radio"].actchoice:after {
+     -webkit-appearance: radio !important;
+     -moz-appearance: radio !important;
+     -ms-appearance: radio !important;
+     -o-appearance: radio !important;
+     appearance: radio !important;
+}
+input[type="radio"].actchoice:checked:after {
+     -webkit-appearance: radio !important;
+     -moz-appearance: radio !important;
+     -ms-appearance: radio !important;
+     -o-appearance: radio !important;
+     appearance: radio !important;
+}
